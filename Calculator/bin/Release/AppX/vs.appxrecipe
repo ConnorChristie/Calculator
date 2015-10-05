@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>CONNOR-PC</Machine>
+    <WindowsUser>Connor</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Release|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>6e9e22cb-2140-42f3-95f4-579793f1f905</PackageIdentityName>
+    <IntermediateOutputPath>E:\Users\Connor\Documents\Visual Studio 2012\Projects\Calculator\Calculator\obj\Release\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>AAC5FC170B1FF50C8E975CACA81854166CEC05C775CC21D0D231124B708B4DBC</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>6e9e22cb-2140-42f3-95f4-579793f1f905_1.1.0.0_neutral__4nh7rcwf68srg</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>6e9e22cb-2140-42f3-95f4-579793f1f905_4nh7rcwf68srg!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>6e9e22cb-2140-42f3-95f4-579793f1f905</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Connor</RegisteredPackagePublisher>
+    <RegisteredVersion>1.1.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="E:\Users\Connor\Documents\Visual Studio 2012\Projects\Calculator\Calculator\bin\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-01-02T20:48:13.110</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="E:\Users\Connor\Documents\Visual Studio 2012\Projects\Calculator\Calculator\bin\Release\Calculator.exe">
+      <PackagePath>Calculator.exe</PackagePath>
+      <Modified>2015-01-02T20:48:12.918</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Users\Connor\Documents\Visual Studio 2012\Projects\Calculator\Calculator\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-16T01:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Users\Connor\Documents\Visual Studio 2012\Projects\Calculator\Calculator\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-16T01:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Users\Connor\Documents\Visual Studio 2012\Projects\Calculator\Calculator\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-16T01:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Users\Connor\Documents\Visual Studio 2012\Projects\Calculator\Calculator\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-16T01:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Users\Connor\Documents\Visual Studio 2012\Projects\Calculator\Calculator\bin\Release\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2015-01-02T20:48:12.724</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Users\Connor\Documents\Visual Studio 2012\Projects\Calculator\Calculator\bin\Release\Common\StandardStyles.xbf">
+      <PackagePath>Common\StandardStyles.xbf</PackagePath>
+      <Modified>2015-01-02T20:48:12.727</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Users\Connor\Documents\Visual Studio 2012\Projects\Calculator\Calculator\bin\Release\Graph.xbf">
+      <PackagePath>Graph.xbf</PackagePath>
+      <Modified>2015-01-02T20:48:12.728</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Users\Connor\Documents\Visual Studio 2012\Projects\Calculator\Calculator\bin\Release\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2015-01-02T20:48:12.730</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Users\Connor\Documents\Visual Studio 2012\Projects\Calculator\Calculator\bin\Release\Calculator.xr.xml">
+      <PackagePath>Calculator.xr.xml</PackagePath>
+      <Modified>2015-01-02T20:48:12.699</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Users\Connor\Documents\Visual Studio 2012\Projects\Calculator\Calculator\bin\Release\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-01-02T20:48:12.987</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,50 @@
+﻿<Page
+    x:Class="Calculator.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Calculator"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+        <Border BorderBrush="#FF00AEFF" BorderThickness="0,2,0,0" Height="156" Margin="50,50,50,0" VerticalAlignment="Top">
+            <StackPanel Height="154" VerticalAlignment="Top" Background="#FF444444">
+                <TextBlock x:Name="Angle_Type" TextWrapping="Wrap" Text="Deg" Height="22" Margin="0,5,10,0" HorizontalAlignment="Right" FontSize="15" Width="43" TextAlignment="Right"/>
+                <RichTextBlock x:Name="Equation" TextWrapping="Wrap" Height="56" FontSize="48" Margin="8,-18,58,0" VerticalAlignment="Top"/>
+                <TextBlock x:Name="Answer" TextWrapping="Wrap" Height="56" FontSize="48" Margin="10,28,10,0" VerticalAlignment="Bottom" TextAlignment="Right"/>
+            </StackPanel>
+        </Border>
+        <Button x:Name="Clear_All" Content="C" HorizontalAlignment="Right" Margin="0,313,348,0" VerticalAlignment="Top" Height="80" Width="100" FontSize="30" Background="#FFE02900" BorderBrush="{x:Null}" BorderThickness="1" FontWeight="Normal" Click="Clear_All_Click"/>
+        <Button x:Name="Divide" Content="÷" HorizontalAlignment="Right" Margin="0,313,48,0" VerticalAlignment="Top" Height="80" Width="100" FontSize="40" Background="#FF444444" BorderBrush="{x:Null}" BorderThickness="1" FontWeight="Normal" Click="Divide_Click"/>
+        <Button x:Name="Multiply" Content="*" HorizontalAlignment="Right" Margin="0,393,48,0" VerticalAlignment="Top" Height="80" FontSize="40" Background="#FF444444" BorderBrush="{x:Null}" BorderThickness="1" FontWeight="Normal" Click="Multiply_Click" Width="100"/>
+        <Button x:Name="Minus" Content="-" HorizontalAlignment="Right" Margin="0,473,48,0" VerticalAlignment="Top" Height="80" FontSize="40" Background="#FF444444" BorderBrush="{x:Null}" BorderThickness="1" FontWeight="Normal" Click="Minus_Click" Width="100"/>
+        <Button x:Name="Plus" Content="+" HorizontalAlignment="Right" Margin="0,553,48,0" VerticalAlignment="Top" Height="80" FontSize="40" Background="#FF444444" BorderBrush="{x:Null}" BorderThickness="1" FontWeight="Normal" Click="Plus_Click" Width="100"/>
+        <Button x:Name="Equals" Content="=" HorizontalAlignment="Right" Margin="0,633,48,0" VerticalAlignment="Top" Height="80" FontSize="40" Background="#FF00AEC9" BorderBrush="{x:Null}" BorderThickness="1" FontWeight="Normal" Click="Equals_Click" Width="100"/>
+        <Button x:Name="Number_9" Content="9" HorizontalAlignment="Right" Margin="0,393,148,0" VerticalAlignment="Top" Height="80" FontSize="40" Background="#FF747474" BorderBrush="{x:Null}" BorderThickness="1" FontWeight="Bold" Click="Number_9_Click" Width="100"/>
+        <Button x:Name="Number_6" Content="6" HorizontalAlignment="Right" Margin="0,473,148,0" VerticalAlignment="Top" Height="80" FontSize="40" Background="#FF747474" BorderBrush="{x:Null}" BorderThickness="1" FontWeight="Bold" Click="Number_6_Click" Width="100"/>
+        <Button x:Name="Number_3" Content="3" HorizontalAlignment="Right" Margin="0,553,148,0" VerticalAlignment="Top" Height="80" FontSize="40" Background="#FF747474" BorderBrush="{x:Null}" BorderThickness="1" FontWeight="Bold" Click="Number_3_Click" Width="100"/>
+        <Button x:Name="Number_8" Content="8" HorizontalAlignment="Right" Margin="0,393,248,0" VerticalAlignment="Top" Height="80" FontSize="40" Background="#FF747474" BorderBrush="{x:Null}" BorderThickness="1" FontWeight="Bold" Click="Number_8_Click" Width="100"/>
+        <Button x:Name="Number_5" Content="5" HorizontalAlignment="Right" Margin="0,473,248,0" VerticalAlignment="Top" Height="80" FontSize="40" Background="#FF747474" BorderBrush="{x:Null}" BorderThickness="1" FontWeight="Bold" Click="Number_5_Click" Width="100"/>
+        <Button x:Name="Number_2" Content="2" HorizontalAlignment="Right" Margin="0,553,248,0" VerticalAlignment="Top" Height="80" FontSize="40" Background="#FF747474" BorderBrush="{x:Null}" BorderThickness="1" FontWeight="Bold" Click="Number_2_Click" Width="100"/>
+        <Button x:Name="Number_7" Content="7" HorizontalAlignment="Right" Margin="0,393,348,0" VerticalAlignment="Top" Height="80" FontSize="40" Background="#FF747474" BorderBrush="{x:Null}" BorderThickness="1" FontWeight="Bold" Click="Number_7_Click" Width="100"/>
+        <Button x:Name="Number_4" Content="4" HorizontalAlignment="Right" Margin="0,473,348,0" VerticalAlignment="Top" Height="80" FontSize="40" Background="#FF747474" BorderBrush="{x:Null}" BorderThickness="1" FontWeight="Bold" Click="Number_4_Click" Width="100"/>
+        <Button x:Name="Number_1" Content="1" HorizontalAlignment="Right" Margin="0,553,348,0" VerticalAlignment="Top" Height="80" FontSize="40" Background="#FF747474" BorderBrush="{x:Null}" BorderThickness="1" FontWeight="Bold" Click="Number_1_Click" Width="100"/>
+        <Button x:Name="Number_0" Content="0" HorizontalAlignment="Right" Margin="0,633,248,0" VerticalAlignment="Top" Height="80" FontSize="40" Background="#FF747474" BorderBrush="{x:Null}" BorderThickness="1" FontWeight="Bold" Click="Number_0_Click" Width="200"/>
+        <Button x:Name="Decimal" Content="." HorizontalAlignment="Right" Margin="0,633,148,0" VerticalAlignment="Top" Height="80" FontSize="40" Background="#FFB028FD" BorderBrush="{x:Null}" BorderThickness="1" FontWeight="Bold" Click="Decimal_Click" Width="100"/>
+        <Button x:Name="Modulus" Content="%" HorizontalAlignment="Right" Margin="0,313,148,0" VerticalAlignment="Top" Height="80" FontSize="30" Background="#FF444444" BorderBrush="{x:Null}" BorderThickness="1" FontWeight="Normal" Click="Modulus_Click" Width="100"/>
+        <Button x:Name="Variable_X" Content="X" HorizontalAlignment="Right" Margin="0,313,248,0" VerticalAlignment="Top" Height="80" FontSize="32" Background="#FF444444" BorderBrush="{x:Null}" BorderThickness="1" FontWeight="Normal" Width="100" Click="Variable_X_Click"/>
+        <Button x:Name="Backspace" Content="←" HorizontalAlignment="Right" Margin="0,233,48,0" VerticalAlignment="Top" Height="80" FontSize="48" Background="#FFE02900" BorderBrush="{x:Null}" BorderThickness="1" FontWeight="Normal" Click="Backspace_Click" Width="100"/>
+        <Button x:Name="Symbol_LeftParenth" Content="(" HorizontalAlignment="Left" Margin="150,233,0,0" VerticalAlignment="Top" Height="80" FontSize="32" Background="#FF444444" BorderBrush="{x:Null}" BorderThickness="1" FontWeight="Normal" Width="100" Click="Symbol_LeftParenth_Click"/>
+        <Button x:Name="Symbol_RightParenth" Content=")" HorizontalAlignment="Left" Margin="250,233,0,0" VerticalAlignment="Top" Height="80" FontSize="32" Background="#FF444444" BorderBrush="{x:Null}" BorderThickness="1" FontWeight="Normal" Width="100" Click="Symbol_RightParenth_Click"/>
+        <Button x:Name="Symbol_Parenth" Content="π" HorizontalAlignment="Left" Margin="350,233,0,0" VerticalAlignment="Top" Height="80" FontSize="32" Background="#FF444444" BorderBrush="{x:Null}" BorderThickness="1" FontWeight="Normal" Width="100" Click="Symbol_Parenth_Click"/>
+        <Button x:Name="Left_Arrow" Content="&lt;" HorizontalAlignment="Right" Margin="0,233,616,0" VerticalAlignment="Top" Height="80" FontSize="36" Background="#FF747474" BorderBrush="{x:Null}" BorderThickness="1" FontWeight="Normal" Width="100" Click="Left_Arrow_Click"/>
+        <Button x:Name="Right_Arrow" Content="&gt;" HorizontalAlignment="Right" Margin="0,233,516,0" VerticalAlignment="Top" Height="80" FontSize="36" Background="#FF747474" BorderBrush="{x:Null}" BorderThickness="1" FontWeight="Normal" Width="100" Click="Right_Arrow_Click"/>
+        <Button x:Name="Switch_2nd" Content="2nd" HorizontalAlignment="Left" Margin="50,233,0,0" VerticalAlignment="Top" Height="80" FontSize="32" Background="#FF747474" BorderBrush="{x:Null}" BorderThickness="0,1,1,1" FontWeight="Normal" Width="100" Click="Switch_2nd_Click"/>
+        <Button x:Name="Symbol_Sin" Content="Sin" HorizontalAlignment="Left" Margin="150,313,0,0" VerticalAlignment="Top" Height="80" FontSize="32" Background="#FF444444" BorderBrush="{x:Null}" BorderThickness="0,1,1,1" FontWeight="Normal" Width="100" Click="Symbol_Sin_Click"/>
+        <Button x:Name="Symbol_Cos" Content="Cos" HorizontalAlignment="Left" Margin="250,313,0,0" VerticalAlignment="Top" Height="80" FontSize="32" Background="#FF444444" BorderBrush="{x:Null}" BorderThickness="1" FontWeight="Normal" Width="100" Click="Symbol_Cos_Click"/>
+        <Button x:Name="Symbol_Tan" Content="Tan" HorizontalAlignment="Left" Margin="350,313,0,0" VerticalAlignment="Top" Height="80" FontSize="32" Background="#FF444444" BorderBrush="{x:Null}" BorderThickness="1" FontWeight="Normal" Width="100" Click="Symbol_Tan_Click"/>
+        <Button x:Name="Switch_Angle" Content="Rad" HorizontalAlignment="Right" Margin="0,233,348,0" VerticalAlignment="Top" Height="80" FontSize="32" Background="#FF747474" BorderBrush="{x:Null}" BorderThickness="1" FontWeight="Normal" Click="Switch_Angle_Click" Width="100"/>
+        <Button x:Name="Symbol_Sqrt" Content="√(□)" HorizontalAlignment="Left" Margin="50,313,0,0" VerticalAlignment="Top" Height="80" FontSize="32" Background="#FF444444" BorderBrush="{x:Null}" BorderThickness="0,1,1,1" FontWeight="Normal" Width="100" Click="Symbol_Sqrt_Click"/>
+    </Grid>
+</Page>
